@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url("http://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg")center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.container {
+    width: 970px;
+}
+
+header ul {
+    list-style-type: none;
+    padding-top: 25px;
+    float: right;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: rgb(246,7,82);        
+    text-decoration: none;
+    padding: 0px 15px; 
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(246,7,82);
+    padding: 3px 15px;
+    border-radius: 3px;    
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;    
+}
+
+#act-btn {
+    background-color: rgb(246,7,82);
+    color: white;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+.main {
+    padding-top: 20px;    
+}
+
+.main .row {
+    padding-top: 25px;    
+}
+
+.footer {
+    padding: 25px 0;
+}
+
+.footer ul {
+    list-style-type: none;
+    position: relative;
+    left: -35px;
+    
+}
+
+.footer li {
+    display: inline;
+    padding: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: rgb(246,7,82);    
+}
